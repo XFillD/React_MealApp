@@ -11,7 +11,7 @@ const HeaderCartButton = (props) => {
   }, 0);
 
   return (
-    <button className="button" onClick={props.onclk}>
+    <button className="button bump" onClick={props.onclk}>
       <span className="icon">
         <CartIcon />
       </span>
